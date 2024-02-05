@@ -17,6 +17,8 @@ body {
     text-decoration: none;
 }
 
+
+
 /* DESKTOP SIZE*/
 .container {
     width: 1120px;
@@ -41,6 +43,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
 .list {
@@ -80,6 +83,13 @@ nav {
     transition: .5s;
 }
 
+.container_100 {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    margin: auto;
+}
+
 .btn:hover {
     color: #ed4c5c;
     background: #FFF;
@@ -103,10 +113,8 @@ nav {
 
 .header__info {
     color: #FFF;
-
     font-family: var(--body-font-family);
     font-size: 24px;
-
     font-weight: 400;
     line-height: 150%;
     padding-top: 30px;
@@ -193,4 +201,75 @@ nav {
     top: 50%;
     transform: translateY(-50%);
     left: -30px;
+}
+
+.master__text__ {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.master__img {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    transform: translateY(39%);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 8px;
+
+}
+
+.master__big__text {
+    position: relative;
+    width: 293px;
+    height: 200px;
+    left: 28px;
+    background: #f1f1f1;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 8px;
+}
+
+.master__button {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.master__button__smoll {
+    color: #ed4c5c;
+    border: none;
+    background: none;
+}
+
+.man {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.master__big__img__1 {
+    border: 2px solid red;
+    padding-top: 25px;
+    width: 255px;
+    height: 255px;
+}
+
+.img_1 {
+    left: 85px;
+    position: absolute;
+}
+
+.master__big__text_1 {
+    text-align: center;
+    position: relative;
+    bottom: -35px;
+    left: 10px;
+
+}
+
+.rext {
+    padding-top: 10px;
 }
