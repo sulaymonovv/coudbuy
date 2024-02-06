@@ -245,31 +245,55 @@ nav {
     background: none;
 }
 
-.man {
-    text-align: center;
-    padding-top: 50px;
+.margin {
+    display: flex;
+    justify-content: space-between;
 }
 
-.master__big__img__1 {
-    border: 2px solid red;
-    padding-top: 25px;
+.margin__auto{
+    margin-top: 200px;
+}
+
+.margin__25px {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.margin__play {
     width: 255px;
-    height: 255px;
-}
-
-.img_1 {
-    left: 85px;
-    position: absolute;
-}
-
-.master__big__text_1 {
+    height: 226px;
     text-align: center;
     position: relative;
-    bottom: -35px;
-    left: 10px;
-
+    margin-bottom: 100px;
 }
 
-.rext {
-    padding-top: 10px;
+.margin__img {
+    position: absolute;
+    transform: translateY(-53%);
+    left: 88px;
+}
+
+.margin__img__1 {
+    position: absolute;
+    transform: translateY(-53%);
+    left: 91px;
+}
+
+.margin__img__2 {
+    position: absolute;
+    transform: translateY(-53%);
+    left: 91px;
+}
+
+.margin__img__3 {
+    position: absolute;
+    transform: translateY(-53%);
+    left: 101px;
+}
+
+
+.margin___margin {
+    padding-top: 40px;
+    padding-bottom: 25px;
 }
